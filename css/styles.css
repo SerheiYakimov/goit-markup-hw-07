@@ -116,7 +116,8 @@ img {
   align-items: center;
 }
 
-.nav-logo {
+.nav-logo,
+.footer-contacts__nav-logo {
   display: flex;
   align-items: center;
 
@@ -126,7 +127,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.logo {
+.nav-logo__logo {
   margin-right: 93px;
 
   font-family: var(--logo-font);
@@ -134,9 +135,25 @@ img {
   text-decoration: none;
 }
 
-.dark-logo {
+.nav-logo__dark-logo {
   font-family: var(--logo-font);
   color: #000000;
+  text-decoration: none;
+}
+
+.footer-contacts {
+  display: inline-block;
+}
+
+.footer-contacts__logo {
+  font-family: var(--logo-font);
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.footer-contacts__light-logo {
+  font-family: var(--logo-font);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -150,12 +167,6 @@ img {
   margin-left: auto;
   padding-left: 0;
   list-style: none;
-}
-
-.light-logo {
-  font-family: var(--logo-font);
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .link {
@@ -175,17 +186,17 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-current {
+.list-nav__link:hover,
+.list-nav__link:focus {
+  color: var(--accent-color);
+}
+
+.list-nav__link--current {
   color: var(--accent-color);
   position: relative;
 }
 
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-
-.link-current::after {
+.list-nav__link--current::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -293,7 +304,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-connection .icon {
+.list-connection__icon {
   margin-right: 10px;
   fill: var(--main-text-color);
 
@@ -302,8 +313,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-connection:hover .icon,
-.list-connection:focus .icon {
+.list-connection:hover .list-connection__icon,
+.list-connection:focus .list-connection__icon {
   fill: var(--accent-color);
 }
 
@@ -435,11 +446,11 @@ img {
   color: var(--second-text-color);
 }
 
-.list-nav .item:not(:last-child) {
+.list-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.list-contact .item:not(:last-child) {
+.list-contact__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -451,7 +462,7 @@ img {
   margin-right: 8px;
 }
 
-.list-connection-footer .list-connection-items:not(:first-child) {
+.list-connection-footer__item:not(:first-child) {
   margin-top: 9px;
 }
 
@@ -497,7 +508,7 @@ img {
   display: inline-block;
 }
 
-.title-footer-icon,
+.footer-social-icon__title,
 .title-footer-form {
   font-weight: 700;
   font-size: 14px;
@@ -506,7 +517,7 @@ img {
   color: var(--title-color);
 }
 
-.icons-footer-link {
+.footer-social-icon__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -520,7 +531,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icons-footer .icon {
+.footer-social-icon__icon {
   width: 20px;
   height: 20px;
   fill: var(--title-color);
@@ -530,20 +541,20 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-footer-link:hover .icon,
-.icons-footer-link:focus .icon {
+.footer-social-icon__link:hover .footer-social-icon__icon,
+.footer-social-icon__link:focus .footer-social-icon__icon {
   fill: var(--title-color);
 }
-.icons-footer-link:hover,
-.icons-footer-link:focus {
+.footer-social-icon__link:hover,
+.footer-social-icon__link:focus {
   background-color: var(--accent-color);
 }
 
-.icons-footer-item + .icons-footer-item {
+.footer-social-icon__item + .footer-social-icon__item {
   margin-left: 10px;
 }
 
-.social-icons-footer {
+.footer-social-icon__list {
   margin-top: 20px;
 }
 
@@ -716,7 +727,7 @@ img {
   color: var(--main-text-color);
 }
 
-.address {
+.footer-contacts__address {
   margin-top: 20px;
 
   font-style: normal;
@@ -727,7 +738,7 @@ img {
   color: var(--title-color);
 }
 
-.link-connection {
+.list-connection-footer__link {
   padding-top: 0;
   padding-bottom: 0;
   font-weight: 400;
@@ -739,6 +750,11 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-connection-footer__link:hover,
+.list-connection-footer__link:focus {
+  color: var(--accent-color);
 }
 
 .footer-logo {
