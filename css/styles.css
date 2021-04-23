@@ -819,7 +819,7 @@ img {
   border-radius: 4px;
 }
 
-.btn-close {
+.modal__btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -835,8 +835,8 @@ img {
   cursor: pointer;
 }
 
-.btn-close:hover .icon,
-.btn-close:focus .icon {
+.modal__btn-close:hover .modal__icon,
+.modal__btn-close:focus .modal__icon {
   fill: var(--accent-color);
 }
 
