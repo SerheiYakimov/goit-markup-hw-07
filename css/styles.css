@@ -103,7 +103,7 @@ img {
   padding-top: 94px;
 }
 
-.bg-title-work,
+.bg-title-activity,
 .second-bg-color,
 .main-bg-color,
 .our-clients {
@@ -209,13 +209,13 @@ img {
   border-radius: 2px;
 }
 
-.list-item {
+.list__item {
   --grid-item: 3;
 
   position: relative;
 }
 
-.item-works {
+.list__work {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -239,7 +239,7 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.link:hover .list-item {
+.link:hover .list__item {
   --grid-item: 3;
 }
 
