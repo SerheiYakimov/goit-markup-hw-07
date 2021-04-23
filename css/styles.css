@@ -376,7 +376,7 @@ img {
   margin-left: 10px;
 }
 
-.client-list .icon-client {
+.client-list__icon {
   fill: var(--team-icon-color);
 
   transition-property: fill;
@@ -384,7 +384,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link {
+.client-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -398,18 +398,18 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover .icon-client,
-.client-link:focus .icon-client {
+.client-list__link:hover .client-list__icon,
+.client-list__link:focus .client-list__icon {
   fill: var(--accent-color);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-list__link:hover,
+.client-list__link:focus {
   background-color: var(--title-color);
   border: 1px solid var(--accent-color);
 }
 
-.client-item + .client-item {
+.client-list__item + .client-list__item {
   margin-left: 30px;
 }
 
