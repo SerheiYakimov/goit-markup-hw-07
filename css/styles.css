@@ -303,18 +303,6 @@ img {
   border-radius: 4px;
 }
 
-.hero__title {
-  max-width: 696px;
-  margin-bottom: 30px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--title-color);
-}
-
 .section-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -325,30 +313,12 @@ img {
   color: var(--second-text-color);
 }
 
-.project__title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--second-text-color);
-}
-
 .second-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
-}
-
-.list-features__title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
   color: var(--second-text-color);
 }
 
@@ -828,6 +798,18 @@ img {
   margin-bottom: 0;
 }
 
+.hero__title {
+  max-width: 696px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
 .overlay {
   max-width: 1600px;
   height: 600px;
@@ -841,6 +823,16 @@ img {
 
 .features {
   padding-top: 94px;
+}
+
+.list-features__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--second-text-color);
 }
 
 .list-features__icon {
@@ -985,6 +977,14 @@ img {
 
 .project {
   --grid-item: 3;
+}
+
+.project__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
 }
 
 .project__text {
