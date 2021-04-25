@@ -49,6 +49,40 @@ img {
   height: auto;
 }
 
+.our-activity,
+.our-team,
+.portfolio,
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features .portfolio {
+  background-color: var(--main-bg-color);
+}
+
+.section-hero,
+.footer {
+  background-color: var(--dark-bg-color);
+}
+
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--second-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .list-nav,
 .list-contact,
 .list-features,
