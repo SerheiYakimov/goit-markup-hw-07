@@ -19,11 +19,11 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-icons__link:hover,
-.social-icons__link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .social-icons__icon {
@@ -34,9 +34,9 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-icons__link:hover .social-icons__icon,
-.social-icons__link:focus .social-icons__icon {
-  fill: var(--title-color);
+  .social-icons__link:hover &,
+  .social-icons__link:focus & {
+    fill: var(--title-color);
+  }
 }
