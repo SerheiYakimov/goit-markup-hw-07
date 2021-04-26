@@ -135,7 +135,6 @@ summary {
   --grid-item: 1;
 }
 
-/* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -146,7 +145,6 @@ summary {
   /* Legacy iOS */
 }
 
-/* roboto-500 - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -157,7 +155,6 @@ summary {
   /* Legacy iOS */
 }
 
-/* roboto-700 - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -168,7 +165,6 @@ summary {
   /* Legacy iOS */
 }
 
-/* roboto-900 - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -179,7 +175,6 @@ summary {
   /* Legacy iOS */
 }
 
-/* raleway-regular - latin_cyrillic */
 @font-face {
   font-family: "Raleway";
   font-style: normal;
@@ -190,7 +185,6 @@ summary {
   /* Legacy iOS */
 }
 
-/* raleway-700 - latin_cyrillic */
 @font-face {
   font-family: "Raleway";
   font-style: normal;
