@@ -663,6 +663,11 @@ img {
   cursor: pointer;
 }
 
+.input-field__form:focus, .input-field__form:hover {
+  outline-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
 .form-data__comment {
   width: 100%;
   padding: 12px 16px;
@@ -677,8 +682,7 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-data__comment:focus,
-.form-data__comment:hover {
+.form-data__comment:focus, .form-data__comment:hover {
   outline-color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -693,12 +697,6 @@ img {
 .input-field__form:focus + .input-field__icon,
 .input-field__form:hover + .input-field__icon {
   fill: var(--accent-color);
-}
-
-.input-field__form:focus,
-.input-field__form:hover {
-  outline-color: var(--accent-color);
-  border-color: var(--accent-color);
 }
 
 .form__checkbox-label {
