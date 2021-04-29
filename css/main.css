@@ -329,22 +329,6 @@ img {
   text-decoration: none;
 }
 
-.footer-contacts {
-  display: inline-block;
-}
-
-.footer-contacts__logo {
-  font-family: var(--logo-font);
-  color: var(--accent-color);
-  text-decoration: none;
-}
-
-.footer-contacts__light-logo {
-  font-family: var(--logo-font);
-  color: #ffffff;
-  text-decoration: none;
-}
-
 .hero__button,
 .singup-form__btn,
 .form__btn {
@@ -429,6 +413,22 @@ img {
 .social-icons__link:hover .social-icons__icon,
 .social-icons__link:focus .social-icons__icon {
   fill: var(--title-color);
+}
+
+.footer-contacts {
+  display: inline-block;
+}
+
+.footer-contacts__logo {
+  font-family: var(--logo-font);
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.footer-contacts__light-logo {
+  font-family: var(--logo-font);
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-social-icon {
