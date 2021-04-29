@@ -32,8 +32,8 @@
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-text-color);
-}
 
-.list-features__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }

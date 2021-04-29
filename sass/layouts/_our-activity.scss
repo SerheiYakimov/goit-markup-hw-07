@@ -2,6 +2,10 @@
   --grid-item: 3;
 
   position: relative;
+
+  .link:hover & {
+    --grid-item: 3;
+  }
 }
 
 .list__work {
@@ -26,8 +30,4 @@
   margin-right: auto;
   margin-left: auto;
   background-color: rgba(47, 48, 58, 0.8);
-}
-
-.link:hover .list__item {
-  --grid-item: 3;
 }
