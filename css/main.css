@@ -245,59 +245,6 @@ img {
   height: auto;
 }
 
-.our-activity,
-.our-team,
-.portfolio,
-.our-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.features .portfolio {
-  background-color: var(--main-bg-color);
-}
-
-.section-hero,
-.footer {
-  background-color: var(--dark-bg-color);
-}
-
-.link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--second-text-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.list-nav,
-.list-contact,
-.list-features,
-.client-list {
-  display: flex;
-  margin-bottom: 0;
-  margin-top: 0;
-  margin-left: auto;
-  padding-left: 0;
-  list-style: none;
-}
-
-.list,
-.list-connection,
-.list-connection-footer {
-  display: flex;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
 .conteiner {
   width: 1200px;
   padding-right: 15px;
@@ -327,6 +274,42 @@ img {
   font-family: var(--logo-font);
   color: #000000;
   text-decoration: none;
+}
+
+.list-nav,
+.list-contact,
+.list-features,
+.client-list {
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: auto;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list,
+.list-connection,
+.list-connection-footer {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--second-text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__button,
@@ -764,6 +747,23 @@ img {
 
 .grid__footer {
   flex-basis: calc((50% - 45px * var(--grid-item)) / var(--grid-item));
+}
+
+.our-activity,
+.our-team,
+.portfolio,
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features .portfolio {
+  background-color: var(--main-bg-color);
+}
+
+.section-hero,
+.footer {
+  background-color: var(--dark-bg-color);
 }
 
 .header {
